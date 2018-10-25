@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS63051_YFF
+D Tiny Single Inductor Buck Boost Converter (3V3 out, 12-DSBGA version)
+F http://www.ti.com/lit/gpn/tps63051
+$ENDCMP
+#
+#End Doc Library

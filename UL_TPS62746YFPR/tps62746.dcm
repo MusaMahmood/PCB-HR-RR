@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62746
+D Ultra-low-power DCDC converter with Vin-switch in WCSP
+F http://www.ti.com/lit/ds/symlink/tps62746.pdf
+$ENDCMP
+#
+#End Doc Library

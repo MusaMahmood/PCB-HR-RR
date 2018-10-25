@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name tps62746)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB-HR-RR/UL_TPS62746YFPR/tps62746.lib")(options "")(descr ""))
+  (lib (name TPS63051)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB-HR-RR/UL_TPS63051/TPS63051.lib")(options "")(descr ""))
 )
