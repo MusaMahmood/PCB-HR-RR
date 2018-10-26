@@ -59,7 +59,7 @@ Text Label 3550 1700 0    60   ~ 0
 BATT_IN
 Text Notes 2900 2250 0    60   ~ 0
 Vcc = Raw battery signal
-Text Label 3750 2800 0    60   ~ 0
+Text Label 3750 2700 0    60   ~ 0
 SWDIO
 Text GLabel 29100 4700 3    60   Input ~ 0
 DGND
@@ -302,10 +302,6 @@ F 3 "" H 27100 4200 60  0001 C CNN
 $EndComp
 Text GLabel 22000 4450 3    60   Input ~ 0
 DGND
-Text Label 24500 6150 0    60   ~ 0
-SCL
-Text Label 24700 6000 0    60   ~ 0
-SDA
 $Comp
 L EEG_ADS1299_2-cache:TPS2294x U5
 U 1 1 59C841EB
@@ -516,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2600 3750 2600
 Wire Wire Line
-	3400 2800 3750 2800
+	3400 2700 3750 2700
 Wire Wire Line
 	4850 1700 4850 1950
 Wire Wire Line
@@ -653,14 +649,6 @@ Wire Wire Line
 	22400 4200 22400 4450
 Wire Wire Line
 	22400 4450 22000 4450
-Wire Wire Line
-	24300 5700 24300 6150
-Wire Wire Line
-	24300 6150 24500 6150
-Wire Wire Line
-	24400 5700 24400 6000
-Wire Wire Line
-	24400 6000 24700 6000
 Wire Wire Line
 	21600 4550 21600 4800
 Wire Wire Line
@@ -847,8 +835,6 @@ Wire Wire Line
 	11550 6050 11550 5750
 Text Notes 10500 4450 0    60   ~ 0
 R9 sets current limit\nNOTE: STAT PIN IS 5V
-Text Label 22050 4900 2    60   ~ 0
-GSR_AIN
 Wire Wire Line
 	21400 4500 22500 4500
 Wire Wire Line
@@ -858,19 +844,9 @@ Wire Wire Line
 Wire Wire Line
 	22550 4500 22650 4500
 Wire Wire Line
-	22050 4600 22050 4900
-Wire Wire Line
 	22550 4500 22550 4550
 Wire Wire Line
 	22550 4550 21600 4550
-Wire Wire Line
-	22050 4600 22650 4600
-Text Label 24250 6300 0    60   ~ 0
-ALERT
-Wire Wire Line
-	24200 5700 24200 6300
-Wire Wire Line
-	24200 6300 24250 6300
 Wire Wire Line
 	29100 4000 29150 4000
 Wire Wire Line
@@ -986,10 +962,10 @@ Wire Notes Line
 Text Notes 2750 1150 0    50   ~ 0
 Pin Headers and General Connection Labeling
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5BDCB82F
 P 5900 2850
-F 0 "#PWR?" H 5900 2600 50  0001 C CNN
+F 0 "#PWR0101" H 5900 2600 50  0001 C CNN
 F 1 "GND" H 5905 2677 50  0000 C CNN
 F 2 "" H 5900 2850 50  0001 C CNN
 F 3 "" H 5900 2850 50  0001 C CNN
@@ -997,10 +973,10 @@ F 3 "" H 5900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5BDCB8E1
 P 3550 1950
-F 0 "#PWR?" H 3550 1700 50  0001 C CNN
+F 0 "#PWR0102" H 3550 1700 50  0001 C CNN
 F 1 "GND" H 3555 1777 50  0000 C CNN
 F 2 "" H 3550 1950 50  0001 C CNN
 F 3 "" H 3550 1950 50  0001 C CNN
@@ -1008,10 +984,10 @@ F 3 "" H 3550 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male P1
 U 1 1 5BDCBA89
 P 3250 1700
-F 0 "J?" H 3356 1878 50  0000 C CNN
+F 0 "P1" H 3356 1878 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3356 1787 50  0000 C CNN
 F 2 "" H 3250 1700 50  0001 C CNN
 F 3 "~" H 3250 1700 50  0001 C CNN
@@ -1019,10 +995,10 @@ F 3 "~" H 3250 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male P2
 U 1 1 5BDCBB33
 P 3200 2600
-F 0 "J?" H 3306 2778 50  0000 C CNN
+F 0 "P2" H 3306 2778 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3306 2687 50  0000 C CNN
 F 2 "" H 3200 2600 50  0001 C CNN
 F 3 "~" H 3200 2600 50  0001 C CNN
@@ -1030,10 +1006,10 @@ F 3 "~" H 3200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male P3
 U 1 1 5BDCBBD5
 P 5200 2600
-F 0 "J?" H 5306 2778 50  0000 C CNN
+F 0 "P3" H 5306 2778 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 5306 2687 50  0000 C CNN
 F 2 "" H 5200 2600 50  0001 C CNN
 F 3 "~" H 5200 2600 50  0001 C CNN
@@ -1082,10 +1058,10 @@ F 3 "" H 14750 2650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5BDCB3D9
 P 17500 3450
-F 0 "#PWR?" H 17500 3200 50  0001 C CNN
+F 0 "#PWR0103" H 17500 3200 50  0001 C CNN
 F 1 "GND" H 17505 3277 50  0000 C CNN
 F 2 "" H 17500 3450 50  0001 C CNN
 F 3 "" H 17500 3450 50  0001 C CNN
