@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name tps62746)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB-HR-RR/UL_TPS62746YFPR/tps62746.lib")(options "")(descr ""))
   (lib (name TPS63051)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB-HR-RR/UL_TPS63051/TPS63051.lib")(options "")(descr ""))
+  (lib (name EEG_ADS1299-cache)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB_nRF52_GSR_recharge/libs_tmp/EEG_ADS1299-cache.lib")(options "")(descr ""))
+  (lib (name EEG_ADS1299_2-cache)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB_nRF52_GSR_recharge/libs_tmp/EEG_ADS1299_2-cache.lib")(options "")(descr ""))
+  (lib (name conn1)(type Legacy)(uri "E:/Dropbox (GaTech)/YeoLab/PCB Design/PCB_nRF52_GSR_recharge/libs_tmp/conn1.lib")(options "")(descr ""))
 )
