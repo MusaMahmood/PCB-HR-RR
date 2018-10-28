@@ -5,4 +5,5 @@
   (lib (name TPS63051)(type Legacy)(uri ${KIPRJMOD}/../UL_TPS63051/TPS63051.lib)(options "")(descr ""))
   (lib (name tps62746)(type Legacy)(uri ${KIPRJMOD}/../UL_TPS62746YFPR/tps62746.lib)(options "")(descr ""))
   (lib (name ADAS1000-4)(type Legacy)(uri ${KIPRJMOD}/../UL_ADAS10004BCPZ/KiCAD/adas1000-4.lib)(options "")(descr ""))
+  (lib (name DSC1001)(type Legacy)(uri ${KIPRJMOD}/../DSC1001DI5-008.1920T/DSC1001.lib)(options "")(descr ""))
 )

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DSC1001
+D 1.8V-3.3V Low-Power Precision CMOS Oscillators
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf
+$ENDCMP
+#
+#End Doc Library
