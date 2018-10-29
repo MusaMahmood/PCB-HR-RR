@@ -27,3 +27,5 @@ _autosave-*
 
 # Useless Stuff
 *.html
+
+output_gerbers/
