@@ -287,7 +287,7 @@ F 3 "" H 26700 3200 60  0001 C CNN
 $EndComp
 Text GLabel 21600 3450 3    60   Input ~ 0
 DGND
-Text Label 20650 4000 2    60   ~ 0
+Text Label 20650 4150 2    60   ~ 0
 LOAD_SW_CTRL
 $Comp
 L Device:C C15
@@ -322,7 +322,7 @@ F 3 "" H 10200 6350 50  0000 C CNN
 	1    10200 6350
 	0    -1   -1   0   
 $EndComp
-Text Label 20650 4150 2    60   ~ 0
+Text Label 20650 4000 2    60   ~ 0
 AIN_BAT_DIV_VOLTAGE
 Text GLabel 3800 3000 2    60   Input ~ 0
 5V_in_charge
