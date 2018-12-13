@@ -70,7 +70,7 @@ L Device:Crystal X2
 U 1 1 5980527C
 P 21650 3150
 F 0 "X2" H 21650 3300 50  0000 C CNN
-F 1 "32.768 kHz" H 21650 3000 50  0000 C CNN
+F 1 "32.768 kHz" V 21850 3150 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm" H 21650 3150 50  0001 C CNN
 F 3 "" H 21650 3150 50  0001 C CNN
 	1    21650 3150
@@ -753,7 +753,7 @@ Wire Notes Line
 	12100 4650 8000 4650
 Wire Notes Line
 	8000 4650 8000 3000
-Text Notes 4050 1850 0    50   ~ 0
+Text Notes 4050 1900 0    50   ~ 0
 Vcc<BATT> = \nBattery Voltage (after load-balance circuitry)
 Wire Notes Line
 	8000 1350 12350 1350
@@ -1388,15 +1388,6 @@ Wire Wire Line
 Wire Wire Line
 	26650 7400 27500 7400
 Wire Wire Line
-	27950 7300 27950 6850
-Wire Wire Line
-	26650 7300 27950 7300
-Wire Wire Line
-	27400 6850 27950 6850
-Connection ~ 27950 6850
-Wire Wire Line
-	27950 6850 28200 6850
-Wire Wire Line
 	28600 8050 28600 8150
 Wire Wire Line
 	28600 8150 29000 8150
@@ -1743,7 +1734,6 @@ Wire Wire Line
 	23700 12150 22650 12150
 Text Label 22650 12150 0    50   ~ 0
 ~CS
-NoConn ~ 23700 12350
 Wire Wire Line
 	23700 12550 22650 12550
 Text Label 22650 12550 0    50   ~ 0
@@ -1780,26 +1770,8 @@ Text Label 29100 12300 0    50   ~ 0
 MSCK
 Text Label 29100 12400 0    50   ~ 0
 ~MCS
-Wire Wire Line
-	27500 10750 27850 10750
-Wire Wire Line
-	27850 10750 27850 10650
-Wire Wire Line
-	27850 10650 28150 10650
-Wire Wire Line
-	27500 10850 27950 10850
-Wire Wire Line
-	27950 10850 27950 10750
-Wire Wire Line
-	27950 10750 28150 10750
-Text Label 28150 10650 0    50   ~ 0
-ADAS_XTAL2
-Text Label 28150 10750 0    50   ~ 0
-ADAS_XTAL1
-Text Label 26650 7300 0    50   ~ 0
-ADAS_XTAL1
 Text Label 26650 7400 0    50   ~ 0
-ADAS_XTAL2
+DSC1001_CLK_OUT
 Wire Wire Line
 	23700 9550 23600 9550
 Wire Wire Line
@@ -2444,4 +2416,12 @@ Wire Notes Line
 	30850 13400 19600 13400
 Wire Notes Line
 	19600 13400 19600 6650
+Wire Wire Line
+	27400 6850 28200 6850
+Wire Wire Line
+	22650 12350 23700 12350
+Text Label 22650 12350 0    50   ~ 0
+DSC1001_CLK_OUT
+NoConn ~ 27500 10850
+NoConn ~ 27500 10750
 $EndSCHEMATC
